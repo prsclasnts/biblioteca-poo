@@ -149,7 +149,7 @@ class Biblioteca:
 
 biblioteca = Biblioteca()
 biblioteca.adiciona_autor(1, 'Joseph Sheridan Le Fanu', 'Irlandês')
-biblioteca.adiciona_livro(1, 'Carmilla', 'Pandorga', [Generos.ROMANCE, Generos.TERROR], [biblioteca.autores.get(1)], 2)
+biblioteca.adiciona_livro(1, 'Carmilla', 'Pandorga', [Generos.ROMANCE.value, Generos.TERROR.value], [biblioteca.autores.get(1)], 2)
 biblioteca.adiciona_usuario(1, 'Júlia', 'Brasileira', '98 989898998')
 
 livro = biblioteca.livros.get(1)
